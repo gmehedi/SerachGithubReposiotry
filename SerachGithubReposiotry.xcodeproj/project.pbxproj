@@ -14,6 +14,9 @@
 		D86CD1D329C7535C00F523D9 /* SerachGithubReposiotryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1D229C7535C00F523D9 /* SerachGithubReposiotryUITests.swift */; };
 		D86CD1D529C7535C00F523D9 /* SerachGithubReposiotryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1D429C7535C00F523D9 /* SerachGithubReposiotryUITestsLaunchTests.swift */; };
 		D86CD1E229C7557E00F523D9 /* SearchRepositoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1E129C7557E00F523D9 /* SearchRepositoryView.swift */; };
+		D86CD1E529C7567C00F523D9 /* RepositorySearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1E429C7567C00F523D9 /* RepositorySearchResponse.swift */; };
+		D86CD1E729C7569500F523D9 /* RepositoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1E629C7569500F523D9 /* RepositoryItem.swift */; };
+		D86CD1E929C756AB00F523D9 /* RepositoryOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1E829C756AB00F523D9 /* RepositoryOwner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		D86CD1D229C7535C00F523D9 /* SerachGithubReposiotryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerachGithubReposiotryUITests.swift; sourceTree = "<group>"; };
 		D86CD1D429C7535C00F523D9 /* SerachGithubReposiotryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerachGithubReposiotryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D86CD1E129C7557E00F523D9 /* SearchRepositoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryView.swift; sourceTree = "<group>"; };
+		D86CD1E429C7567C00F523D9 /* RepositorySearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositorySearchResponse.swift; sourceTree = "<group>"; };
+		D86CD1E629C7569500F523D9 /* RepositoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryItem.swift; sourceTree = "<group>"; };
+		D86CD1E829C756AB00F523D9 /* RepositoryOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryOwner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +100,9 @@
 		D86CD1B629C7535A00F523D9 /* SerachGithubReposiotry */ = {
 			isa = PBXGroup;
 			children = (
+				D86CD1EA29C756C600F523D9 /* Resources */,
+				D86CD1E329C7566B00F523D9 /* Model */,
 				D86CD1B729C7535A00F523D9 /* SerachGithubReposiotryApp.swift */,
-				D86CD1BB29C7535C00F523D9 /* Assets.xcassets */,
-				D86CD1BD29C7535C00F523D9 /* Preview Content */,
 				D86CD1E129C7557E00F523D9 /* SearchRepositoryView.swift */,
 			);
 			path = SerachGithubReposiotry;
@@ -125,6 +131,25 @@
 				D86CD1D429C7535C00F523D9 /* SerachGithubReposiotryUITestsLaunchTests.swift */,
 			);
 			path = SerachGithubReposiotryUITests;
+			sourceTree = "<group>";
+		};
+		D86CD1E329C7566B00F523D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D86CD1E429C7567C00F523D9 /* RepositorySearchResponse.swift */,
+				D86CD1E629C7569500F523D9 /* RepositoryItem.swift */,
+				D86CD1E829C756AB00F523D9 /* RepositoryOwner.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D86CD1EA29C756C600F523D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D86CD1BD29C7535C00F523D9 /* Preview Content */,
+				D86CD1BB29C7535C00F523D9 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D86CD1E529C7567C00F523D9 /* RepositorySearchResponse.swift in Sources */,
 				D86CD1E229C7557E00F523D9 /* SearchRepositoryView.swift in Sources */,
+				D86CD1E729C7569500F523D9 /* RepositoryItem.swift in Sources */,
 				D86CD1B829C7535A00F523D9 /* SerachGithubReposiotryApp.swift in Sources */,
+				D86CD1E929C756AB00F523D9 /* RepositoryOwner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +444,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SerachGithubReposiotry/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SerachGithubReposiotry/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = S27FAGF43P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -445,7 +473,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SerachGithubReposiotry/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SerachGithubReposiotry/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = S27FAGF43P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
