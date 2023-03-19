@@ -24,6 +24,7 @@
 		D86CD1F529C75F4A00F523D9 /* APIErrorStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1F429C75F4A00F523D9 /* APIErrorStatus.swift */; };
 		D86CD1F729C7602D00F523D9 /* Encode+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1F629C7602D00F523D9 /* Encode+Decode.swift */; };
 		D86CD1F929C7604600F523D9 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1F829C7604600F523D9 /* Request.swift */; };
+		D86CD1FC29C76A7200F523D9 /* ExecutionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1FB29C76A7100F523D9 /* ExecutionState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		D86CD1F429C75F4A00F523D9 /* APIErrorStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrorStatus.swift; sourceTree = "<group>"; };
 		D86CD1F629C7602D00F523D9 /* Encode+Decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encode+Decode.swift"; sourceTree = "<group>"; };
 		D86CD1F829C7604600F523D9 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		D86CD1FB29C76A7100F523D9 /* ExecutionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		D86CD1B629C7535A00F523D9 /* SerachGithubReposiotry */ = {
 			isa = PBXGroup;
 			children = (
+				D86CD1FA29C76A6400F523D9 /* Utilities */,
 				D86CD1EB29C757CC00F523D9 /* Network */,
 				D86CD1EA29C756C600F523D9 /* Resources */,
 				D86CD1E329C7566B00F523D9 /* Model */,
@@ -179,6 +182,14 @@
 				D86CD1F829C7604600F523D9 /* Request.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		D86CD1FA29C76A6400F523D9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D86CD1FB29C76A7100F523D9 /* ExecutionState.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D86CD1E529C7567C00F523D9 /* RepositorySearchResponse.swift in Sources */,
+				D86CD1FC29C76A7200F523D9 /* ExecutionState.swift in Sources */,
 				D86CD1F929C7604600F523D9 /* Request.swift in Sources */,
 				D86CD1F529C75F4A00F523D9 /* APIErrorStatus.swift in Sources */,
 				D86CD1E229C7557E00F523D9 /* SearchRepositoryView.swift in Sources */,
