@@ -17,6 +17,9 @@
 		D86CD1E529C7567C00F523D9 /* RepositorySearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1E429C7567C00F523D9 /* RepositorySearchResponse.swift */; };
 		D86CD1E729C7569500F523D9 /* RepositoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1E629C7569500F523D9 /* RepositoryItem.swift */; };
 		D86CD1E929C756AB00F523D9 /* RepositoryOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1E829C756AB00F523D9 /* RepositoryOwner.swift */; };
+		D86CD1ED29C757DA00F523D9 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1EC29C757DA00F523D9 /* Endpoint.swift */; };
+		D86CD1EF29C757F300F523D9 /* APIRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1EE29C757F300F523D9 /* APIRouterProtocol.swift */; };
+		D86CD1F129C7581D00F523D9 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1F029C7581D00F523D9 /* HTTPMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		D86CD1E429C7567C00F523D9 /* RepositorySearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositorySearchResponse.swift; sourceTree = "<group>"; };
 		D86CD1E629C7569500F523D9 /* RepositoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryItem.swift; sourceTree = "<group>"; };
 		D86CD1E829C756AB00F523D9 /* RepositoryOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryOwner.swift; sourceTree = "<group>"; };
+		D86CD1EC29C757DA00F523D9 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		D86CD1EE29C757F300F523D9 /* APIRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouterProtocol.swift; sourceTree = "<group>"; };
+		D86CD1F029C7581D00F523D9 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,7 @@
 		D86CD1B629C7535A00F523D9 /* SerachGithubReposiotry */ = {
 			isa = PBXGroup;
 			children = (
+				D86CD1EB29C757CC00F523D9 /* Network */,
 				D86CD1EA29C756C600F523D9 /* Resources */,
 				D86CD1E329C7566B00F523D9 /* Model */,
 				D86CD1B729C7535A00F523D9 /* SerachGithubReposiotryApp.swift */,
@@ -150,6 +157,16 @@
 				D86CD1BB29C7535C00F523D9 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		D86CD1EB29C757CC00F523D9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D86CD1EC29C757DA00F523D9 /* Endpoint.swift */,
+				D86CD1EE29C757F300F523D9 /* APIRouterProtocol.swift */,
+				D86CD1F029C7581D00F523D9 /* HTTPMethod.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,8 +301,11 @@
 			files = (
 				D86CD1E529C7567C00F523D9 /* RepositorySearchResponse.swift in Sources */,
 				D86CD1E229C7557E00F523D9 /* SearchRepositoryView.swift in Sources */,
+				D86CD1EF29C757F300F523D9 /* APIRouterProtocol.swift in Sources */,
 				D86CD1E729C7569500F523D9 /* RepositoryItem.swift in Sources */,
+				D86CD1F129C7581D00F523D9 /* HTTPMethod.swift in Sources */,
 				D86CD1B829C7535A00F523D9 /* SerachGithubReposiotryApp.swift in Sources */,
+				D86CD1ED29C757DA00F523D9 /* Endpoint.swift in Sources */,
 				D86CD1E929C756AB00F523D9 /* RepositoryOwner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
