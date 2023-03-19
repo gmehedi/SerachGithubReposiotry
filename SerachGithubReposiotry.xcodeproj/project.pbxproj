@@ -25,6 +25,7 @@
 		D86CD1F729C7602D00F523D9 /* Encode+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1F629C7602D00F523D9 /* Encode+Decode.swift */; };
 		D86CD1F929C7604600F523D9 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1F829C7604600F523D9 /* Request.swift */; };
 		D86CD1FC29C76A7200F523D9 /* ExecutionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1FB29C76A7100F523D9 /* ExecutionState.swift */; };
+		D86CD1FF29C76B3B00F523D9 /* CachedAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1FE29C76B3B00F523D9 /* CachedAsyncImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		D86CD1F629C7602D00F523D9 /* Encode+Decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encode+Decode.swift"; sourceTree = "<group>"; };
 		D86CD1F829C7604600F523D9 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		D86CD1FB29C76A7100F523D9 /* ExecutionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionState.swift; sourceTree = "<group>"; };
+		D86CD1FE29C76B3B00F523D9 /* CachedAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedAsyncImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		D86CD1B629C7535A00F523D9 /* SerachGithubReposiotry */ = {
 			isa = PBXGroup;
 			children = (
+				D86CD1FD29C76AD400F523D9 /* Helper */,
 				D86CD1FA29C76A6400F523D9 /* Utilities */,
 				D86CD1EB29C757CC00F523D9 /* Network */,
 				D86CD1EA29C756C600F523D9 /* Resources */,
@@ -190,6 +193,14 @@
 				D86CD1FB29C76A7100F523D9 /* ExecutionState.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D86CD1FD29C76AD400F523D9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D86CD1FE29C76B3B00F523D9 /* CachedAsyncImage.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,6 +345,7 @@
 				D86CD1B829C7535A00F523D9 /* SerachGithubReposiotryApp.swift in Sources */,
 				D86CD1F329C75F3300F523D9 /* NetworkError.swift in Sources */,
 				D86CD1ED29C757DA00F523D9 /* Endpoint.swift in Sources */,
+				D86CD1FF29C76B3B00F523D9 /* CachedAsyncImage.swift in Sources */,
 				D86CD1E929C756AB00F523D9 /* RepositoryOwner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
