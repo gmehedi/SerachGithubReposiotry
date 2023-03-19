@@ -26,6 +26,7 @@
 		D86CD1F929C7604600F523D9 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1F829C7604600F523D9 /* Request.swift */; };
 		D86CD1FC29C76A7200F523D9 /* ExecutionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1FB29C76A7100F523D9 /* ExecutionState.swift */; };
 		D86CD1FF29C76B3B00F523D9 /* CachedAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1FE29C76B3B00F523D9 /* CachedAsyncImage.swift */; };
+		D86CD20129C76C2F00F523D9 /* CashManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD20029C76C2F00F523D9 /* CashManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		D86CD1F829C7604600F523D9 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		D86CD1FB29C76A7100F523D9 /* ExecutionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionState.swift; sourceTree = "<group>"; };
 		D86CD1FE29C76B3B00F523D9 /* CachedAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedAsyncImage.swift; sourceTree = "<group>"; };
+		D86CD20029C76C2F00F523D9 /* CashManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				D86CD1FE29C76B3B00F523D9 /* CachedAsyncImage.swift */,
+				D86CD20029C76C2F00F523D9 /* CashManager.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 				D86CD1F129C7581D00F523D9 /* HTTPMethod.swift in Sources */,
 				D86CD1B829C7535A00F523D9 /* SerachGithubReposiotryApp.swift in Sources */,
 				D86CD1F329C75F3300F523D9 /* NetworkError.swift in Sources */,
+				D86CD20129C76C2F00F523D9 /* CashManager.swift in Sources */,
 				D86CD1ED29C757DA00F523D9 /* Endpoint.swift in Sources */,
 				D86CD1FF29C76B3B00F523D9 /* CachedAsyncImage.swift in Sources */,
 				D86CD1E929C756AB00F523D9 /* RepositoryOwner.swift in Sources */,
