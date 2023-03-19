@@ -22,6 +22,8 @@
 		D86CD1F129C7581D00F523D9 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1F029C7581D00F523D9 /* HTTPMethod.swift */; };
 		D86CD1F329C75F3300F523D9 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1F229C75F3300F523D9 /* NetworkError.swift */; };
 		D86CD1F529C75F4A00F523D9 /* APIErrorStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1F429C75F4A00F523D9 /* APIErrorStatus.swift */; };
+		D86CD1F729C7602D00F523D9 /* Encode+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1F629C7602D00F523D9 /* Encode+Decode.swift */; };
+		D86CD1F929C7604600F523D9 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1F829C7604600F523D9 /* Request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		D86CD1F029C7581D00F523D9 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		D86CD1F229C75F3300F523D9 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		D86CD1F429C75F4A00F523D9 /* APIErrorStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrorStatus.swift; sourceTree = "<group>"; };
+		D86CD1F629C7602D00F523D9 /* Encode+Decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encode+Decode.swift"; sourceTree = "<group>"; };
+		D86CD1F829C7604600F523D9 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +175,8 @@
 				D86CD1F029C7581D00F523D9 /* HTTPMethod.swift */,
 				D86CD1F229C75F3300F523D9 /* NetworkError.swift */,
 				D86CD1F429C75F4A00F523D9 /* APIErrorStatus.swift */,
+				D86CD1F629C7602D00F523D9 /* Encode+Decode.swift */,
+				D86CD1F829C7604600F523D9 /* Request.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -306,9 +312,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D86CD1E529C7567C00F523D9 /* RepositorySearchResponse.swift in Sources */,
+				D86CD1F929C7604600F523D9 /* Request.swift in Sources */,
 				D86CD1F529C75F4A00F523D9 /* APIErrorStatus.swift in Sources */,
 				D86CD1E229C7557E00F523D9 /* SearchRepositoryView.swift in Sources */,
 				D86CD1EF29C757F300F523D9 /* APIRouterProtocol.swift in Sources */,
+				D86CD1F729C7602D00F523D9 /* Encode+Decode.swift in Sources */,
 				D86CD1E729C7569500F523D9 /* RepositoryItem.swift in Sources */,
 				D86CD1F129C7581D00F523D9 /* HTTPMethod.swift in Sources */,
 				D86CD1B829C7535A00F523D9 /* SerachGithubReposiotryApp.swift in Sources */,
