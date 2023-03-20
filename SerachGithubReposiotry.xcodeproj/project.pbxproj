@@ -10,6 +10,7 @@
 		D80ED82D29C8B9EF00A23ED6 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80ED82C29C8B9EF00A23ED6 /* ServiceManager.swift */; };
 		D80ED83029C8BA7E00A23ED6 /* RepositoriesSearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80ED82F29C8BA7E00A23ED6 /* RepositoriesSearchRequest.swift */; };
 		D80ED83329C8BB5400A23ED6 /* RepositorySearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80ED83229C8BB5400A23ED6 /* RepositorySearchViewModel.swift */; };
+		D80ED83829C8C7D500A23ED6 /* RepoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80ED83729C8C7D500A23ED6 /* RepoDetailsView.swift */; };
 		D86CD1B829C7535A00F523D9 /* SerachGithubReposiotryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CD1B729C7535A00F523D9 /* SerachGithubReposiotryApp.swift */; };
 		D86CD1BC29C7535C00F523D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D86CD1BB29C7535C00F523D9 /* Assets.xcassets */; };
 		D86CD1BF29C7535C00F523D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D86CD1BE29C7535C00F523D9 /* Preview Assets.xcassets */; };
@@ -59,6 +60,7 @@
 		D80ED82C29C8B9EF00A23ED6 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
 		D80ED82F29C8BA7E00A23ED6 /* RepositoriesSearchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesSearchRequest.swift; sourceTree = "<group>"; };
 		D80ED83229C8BB5400A23ED6 /* RepositorySearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositorySearchViewModel.swift; sourceTree = "<group>"; };
+		D80ED83729C8C7D500A23ED6 /* RepoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsView.swift; sourceTree = "<group>"; };
 		D86CD1B429C7535A00F523D9 /* SerachGithubReposiotry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SerachGithubReposiotry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86CD1B729C7535A00F523D9 /* SerachGithubReposiotryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerachGithubReposiotryApp.swift; sourceTree = "<group>"; };
 		D86CD1BB29C7535C00F523D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				D86CD1E129C7557E00F523D9 /* SearchRepositoryView.swift */,
+				D80ED83729C8C7D500A23ED6 /* RepoDetailsView.swift */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 				D86CD20629C76D5D00F523D9 /* String+Extension.swift in Sources */,
 				D80ED83329C8BB5400A23ED6 /* RepositorySearchViewModel.swift in Sources */,
 				D80ED82D29C8B9EF00A23ED6 /* ServiceManager.swift in Sources */,
+				D80ED83829C8C7D500A23ED6 /* RepoDetailsView.swift in Sources */,
 				D86CD1F129C7581D00F523D9 /* HTTPMethod.swift in Sources */,
 				D86CD20329C76CA700F523D9 /* Network+Connectivity.swift in Sources */,
 				D86CD1B829C7535A00F523D9 /* SerachGithubReposiotryApp.swift in Sources */,

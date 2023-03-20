@@ -8,6 +8,8 @@
 import SwiftUI
 import Combine
 
+// MARK: - SearchRepository View update the searching state by depends on api response
+
 struct SearchRepositoryView: View {
     
     @ObservedObject var viewModel = RepositorySerarchViewModel(serviceManager: ServiceManager())
@@ -56,7 +58,7 @@ private struct RepositoriesList: View {
         .listRowBackground(Color.black)
         .navigationViewStyle(StackNavigationViewStyle())
         .navigationDestination(for: RepositoryItem.self) { item in
-           //Push DetailsView
+            RepoDetailsView(repository: item)
         }
     }
 }
